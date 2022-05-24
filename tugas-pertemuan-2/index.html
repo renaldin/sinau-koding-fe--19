@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 2</title>
+</head>
+<style>
+    .tabel {
+        font-family: sans-serif;
+        color: #232323;
+        border-collapse: collapse;
+    }
+
+    .tabel,
+    th,
+    td {
+        border: 1px solid black;
+        padding: 8px 20px;
+    }
+</style>
+
+<body>
+    <div>
+        <table class="tabel">
+            <tr>
+                <th>Text</th>
+                <td><input type="text" name="text" id="text"></td>
+            </tr>
+            <tr>
+                <th>Password :</th>
+                <td><input type="text" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Radio 1<input type="radio" name="radio" id="radio1">
+                    Radio 2<input type="radio" name="radio" id="radio2">
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Checkbox 1<input type="checkbox" name="checkbox" id="checkbox1">
+                    Checkbox 2<input type="checkbox" name="checkbox" id="checkbox2">
+                </th>
+            </tr>
+            <tr>
+                <th>Combo Box :</th>
+                <td>
+                    <select name="combo-box" id="combo-box">
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                        <option value="Option 5">Option 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Textarea :</th>
+                <td><textarea name="textarea" id="textarea" cols="20" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center><input type="button" value="Button"></center>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
