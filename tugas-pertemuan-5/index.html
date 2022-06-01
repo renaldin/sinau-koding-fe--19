@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 5</title>
+</head>
+
+<body>
+    <script>
+        var jumlahAngkot = 10;
+        var angkotBeroperasi = 6;
+        var angkotLembur = 8;
+        var noAngkot = 1;
+
+        for (var noAngkot = noAngkot; noAngkot <= jumlahAngkot; noAngkot++) {
+            if (noAngkot <= angkotBeroperasi) {
+                console.info(`Angkot No. ${noAngkot} beroperasi dengan baik`);
+            } else if (noAngkot == angkotLembur) {
+                console.info(`Angkot No. ${noAngkot} sedang lembur`);
+            } else {
+                console.info(`Angkot No. ${noAngkot} sedang tidak beroperasi`);
+            }
+        }
+    </script>
+</body>
+
+</html>
