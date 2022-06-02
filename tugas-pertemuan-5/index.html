@@ -10,18 +10,22 @@
 
 <body>
     <script>
-        var jumlahAngkot = 10;
-        var angkotBeroperasi = 6;
-        var angkotLembur = 8;
+        var jumlahAngkot = 5;
+        var angkotBeroperasi = 4;
+        var angkotPutihCacat = 3;
+        var angkotMerahSempurna = 4;
+        var angkotBiruSempurna = 5;
         var noAngkot = 1;
 
         for (var noAngkot = noAngkot; noAngkot <= jumlahAngkot; noAngkot++) {
-            if (noAngkot <= angkotBeroperasi) {
-                console.info(`Angkot No. ${noAngkot} beroperasi dengan baik`);
-            } else if (noAngkot == angkotLembur) {
-                console.info(`Angkot No. ${noAngkot} sedang lembur`);
-            } else {
-                console.info(`Angkot No. ${noAngkot} sedang tidak beroperasi`);
+            if (noAngkot == 1 || noAngkot == 2) {
+                console.info(`Angkot No. ${noAngkot} berwarna putih yang beroperasi dengan sempurna`);
+            } else if (noAngkot == angkotPutihCacat) {
+                console.info(`Angkot No. ${noAngkot} berwarna putih yang beroperasi dengan cacat`);
+            } else if (noAngkot == angkotMerahSempurna) {
+                console.info(`Angkot No. ${noAngkot} berwarna merah yang beroperasi dengan sempurna`);
+            } else if (noAngkot == angkotBiruSempurna) {
+                console.info(`Angkot No. ${noAngkot} berwarna biru yang beroperasi dengan sempurna`);
             }
         }
     </script>
